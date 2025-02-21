@@ -8,7 +8,6 @@ import pandas as pd
 from databricks.sql import connect
 
 
-
 DATBRICKS_API_KEY = os.getenv("DATABRICKS_API_KEY")
 DATABRICKS_SERVER = os.getenv("DATABRICKS_SERVER")
 DATABRICKS_HTTP_PATH = os.getenv("DATABRICKS_HTTP_PATH")
