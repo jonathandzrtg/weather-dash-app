@@ -7,9 +7,7 @@ import os
 import pandas as pd
 from databricks.sql import connect
 
-# DATBRICKS_API_KEY = "dapicbc6adf3f6e23f3e75741d3300e78d92-3"
-# DATABRICKS_SERVER = "adb-1126292079753158.18.azuredatabricks.net"
-# DATABRICKS_HTTP_PATH = "/sql/1.0/warehouses/eb4d46ac9ffbc922"
+
 
 DATBRICKS_API_KEY = os.getenv("DATABRICKS_API_KEY")
 DATABRICKS_SERVER = os.getenv("DATABRICKS_SERVER")
