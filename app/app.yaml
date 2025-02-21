@@ -2,3 +2,13 @@ command: [
   'python', 
   'app.py'
   ]
+
+env:
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    valueFrom: "sql-warehouse"
+  - name: "DATABRICKS_API_KEY"
+    valueFrom: "secret_pat"
+  - name: "DATABRICKS_HTTP_PATH"
+    valueFrom: "secret_server_path"
+  - name: "DATABRICKS_SERVER"
+    valueFrom: "secret_server"
