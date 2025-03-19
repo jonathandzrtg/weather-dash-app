@@ -12,7 +12,7 @@ DATBRICKS_API_KEY = os.getenv("DATABRICKS_API_KEY")
 DATABRICKS_SERVER = os.getenv("DATABRICKS_SERVER")
 DATABRICKS_HTTP_PATH = os.getenv("DATABRICKS_HTTP_PATH")
 
-query = "SELECT * FROM brz_dev.dbdemos.colombian_temperature_data"
+query = "SELECT * FROM hive_metastore.default.temperature_data"
 
 
 def query_to_dataframe(query: str) -> pd.DataFrame:
